@@ -220,6 +220,9 @@ a:hover, a:active, a:focus {
 
 #home {
   background: url('../images/home-bg.JPG') 50% 0 repeat-y fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
@@ -498,5 +501,6 @@ footer p {
 @media (max-width: 320px) {
   #home {
     height: 125vh;
+	background-size
   }
 }
