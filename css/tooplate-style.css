@@ -231,7 +231,7 @@ a:hover, a:active, a:focus {
   -ms-flex-align: center;
    align-items: center;
   height: 100vh;
-  position: relative;
+  position: absolute;
   text-align: right;
 }
 
@@ -494,8 +494,8 @@ footer p {
 }
 
 
-@media (max-width: 480px) {
-    #home {
-        background-color: lightblue;
-    }
+@media (max-width: 320px) {
+  #home {
+    height: 125vh;
+  }
 }
