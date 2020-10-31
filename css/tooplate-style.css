@@ -449,7 +449,6 @@ footer p {
 
 @media (max-width: 980px) {
   #home {
-	background-image: url('../images/home-bg.JPG');
     height: 55vh;
   }
 
@@ -466,7 +465,6 @@ footer p {
 
 @media (max-width: 768px) {
   #home {
-	background-image: url('../images/home-bg.JPG');
     height: 85vh;
   }
 }
@@ -483,9 +481,7 @@ footer p {
   }
 
   #home {
-	background-image: url('../images/home-bg.JPG');
-    max-height: 68%;
-	max-width: 68%;
+    height: 95vh;
   }
 
   .contact-info {
@@ -496,8 +492,13 @@ footer p {
 
 @media (max-width: 320px) {
   #home {
-	background-image: url('../images/home-bg.JPG');
-    max-height: 68%;
-	max-width: 68%;
+    height: 125vh;
   }
+}
+
+@media screen and (max-width:640px) {
+	#home {
+	background-image: url('../images/home-bg.JPG');
+	width: 100%!important;
+	}
 }
