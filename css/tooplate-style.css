@@ -498,7 +498,7 @@ footer p {
 
 @media screen and (max-width:640px) {
 	#home {
-	background-image: url('../images/home-bg.JPG');
+	background-image: url('../images/home-bgalt.JPG');
 	width: 100%!important;
 	}
 }
