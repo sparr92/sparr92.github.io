@@ -219,9 +219,12 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-  background: url('../images/home-bg.JPG') no-repeat center;
+  background: url('../images/home-bg.JPG') no-repeat center fixed;
   background-size: cover;
-  height: 900px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
   max-width: 100%;
   position: relative;
   text-align: right;
