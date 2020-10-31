@@ -231,7 +231,7 @@ a:hover, a:active, a:focus {
   -ms-flex-align: center;
    align-items: center;
   height: 100vh;
-  position: absolute;
+  position: relative;
   text-align: right;
 }
 
