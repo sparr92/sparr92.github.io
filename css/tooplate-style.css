@@ -237,8 +237,7 @@ a:hover, a:active, a:focus {
 
 }
 #home:before {
-    content: ""; 
-    background: url('../images/home-bg.JPG') no-repeat center center;
+    background: url('../images/home-bg.JPG');
 	-webkit-background-size: cover !important; 
     -moz-background-size: cover !important; 
     -o-background-size: cover;
@@ -248,7 +247,7 @@ a:hover, a:active, a:focus {
     left: 0; 
     height: 100%; 
     width: 100%; 
-    z-index: -10;
+    z-index: 0;
 }
 
 
@@ -514,6 +513,5 @@ footer p {
 @media (max-width: 320px) {
   #home {
     height: 125vh;
-	background-size
   }
 }
