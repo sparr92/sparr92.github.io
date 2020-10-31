@@ -470,7 +470,7 @@ footer p {
 @media screen and (max-width:640px) {
 	#home {
 	background-image: url('../images/home-bg.JPG') no-repeat center center fixed;
-	max-width: 100%;
+	max-width: 100% !important;
 	}
 	
 }
