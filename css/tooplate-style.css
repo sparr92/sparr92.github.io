@@ -219,7 +219,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-  background: url('../images/home-bg.JPG') no-repeat center fixed;
+  background: url('../images/home-bg.JPG') no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -449,6 +449,7 @@ footer p {
 
 @media (max-width: 980px) {
   #home {
+	background-image: url('../images/home-bg.JPG');
     height: 55vh;
   }
 
@@ -465,6 +466,7 @@ footer p {
 
 @media (max-width: 768px) {
   #home {
+	background-image: url('../images/home-bg.JPG');
     height: 85vh;
   }
 }
@@ -481,6 +483,7 @@ footer p {
   }
 
   #home {
+	background-image: url('../images/home-bg.JPG');
     height: 95vh;
   }
 
@@ -492,6 +495,7 @@ footer p {
 
 @media (max-width: 320px) {
   #home {
+	background-image: url('../images/home-bg.JPG');
     height: 125vh;
   }
 }
