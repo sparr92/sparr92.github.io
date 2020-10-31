@@ -496,6 +496,6 @@ footer p {
 
 @media (max-width: 480px) {
     #home {
-        background-image: url('../images/home-bg-small.JPG');
+        background-color: lightblue;
     }
 }
